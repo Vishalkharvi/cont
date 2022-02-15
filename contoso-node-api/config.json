@@ -1,10 +1,1 @@
-{
-"mongodbConnection":"mongodb://sampoa:6Pa52KDjAMm9qH4QLkrxOk3xdmx8Tm2TOYaAJZ6TQhJqfKDOuRfbd49Qc88TITz9zHNlaKJXSk0or0iTxtC5QA==@sampoa.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@sampoa@",
-    "dbName": "sampoa",
-    "connectionString": "endpoint=https://dhsample.communication.azure.com/;accesskey=+uNtRsFCCdoZbnB/V4mNWgFC2Uz8WHWai2c/IDVvTPzxvQsqGwEWfOZe1KC3sTcwyXhCc5ATSlPUOyknvynWaw==",
-    "jwtPrivateKey": "+uNtRsFCCdoZbnB/V4mNWgFC2Uz8WHWai2c/IDVvTPzxvQsqGwEWfOZe1KC3sTcwyXhCc5ATSlPUOyknvynWaw==",
-    "endpoint": "https://dhsample.communication.azure.com/",
-    "smsLogicAppEndpoint": "AZURE_COMMUNICATION_SERVICES_SMS_LOGIC_APP_HTTP_TRIGGER_ENDPOINT",
-    "qnaMakerEndpoint": "QNA_MAKER_ENDPOINT_URL",
-    "qnaMakerEndpointKey": "QNA_MAKER_ENDPOINT_KEY"
-}
+q
