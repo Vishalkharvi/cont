@@ -1,0 +1,117 @@
+
+.login-page {
+
+.med {
+background-image: linear-gradient(to bottom left,black,black);
+border:2px white;
+opacity: 0.90;}
+
+
+    .gradient {
+        background-image: linear-gradient(to bottom left, black, black);
+        opacity: 0.90;
+        height: 100vh;
+        display: flex;
+        border-left:8px solid white;
+    }
+    
+    .header{
+    color:Black;
+    font-size:'40p';
+    font-weight:bold;
+    background-color:yellow;
+    border:2px solid;
+    
+
+         }
+         
+    .header1{
+    
+    color:Black;
+    font-size:'40p';
+    font-weight:bold;
+    background-color:yellow;
+    
+}
+
+  
+    .center{
+        margin:auto;
+        background: #39A7B7;
+        
+    }
+    
+    .loginform{
+        z-index: 10;
+        margin: auto;
+        width: 340px;
+    }
+    
+    label{
+        color:white;
+    }
+
+    h2 {
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .login-btn {
+        background: yellow;
+        width: 100%;
+        color:black;
+    }
+
+    .forgot-pwd {
+        font-size: large;
+        color: white;
+    }
+
+    .loading-overlay{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(1,1,1,1.5); /* Black background with opacity */
+        z-index: 2; /* incase there is a display stack */
+        cursor: pointer;
+
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usertype-toggle-container {
+        margin: 2rem 0rem;
+
+        .toggle-switch {
+            border: 1px solid white;
+            padding: 2px;
+            color: white;
+            
+
+            &:first-child {
+                border-radius: 0.8rem 0 0 0.8rem;
+            }
+
+            &:last-child {
+                border-radius: 0 0.8rem 0.8rem 0;
+            }
+
+            &.toggle-switch-active {
+                background: yellow;
+                color:black;
+            }
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
